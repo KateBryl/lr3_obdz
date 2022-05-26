@@ -47,8 +47,7 @@ def dump_entries():
     for_row = ""
     for r in rows:
         for el in r:
-            # if 'datetime' == el:
-                # el = datetime.now()
+
             output += str(el) + " " + "\t"
         output += "\n"
     return render_template('dump.html', dump=output)

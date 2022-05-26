@@ -1,9 +1,17 @@
 body{
 background-color: rgb(160, 231, 161);
+font-family: 'Arial' , sans-serif;
+}
+h2{
+    margin-top: 2%;
+    text-align: center;
 }
 ul{
-border:solid;
-}
-li{
-    padding: 10px 10px 0 10px;
+    margin: 2%;
+    padding: 20px;
+    box-shadow:
+         inset 0 -3em 3em rgba(0,0,0,0.1),
+               0 0  0 2px rgb(115, 184, 116),
+               0.3em 0.3em 5em rgba(0,0,0,0.3);
+
 }
